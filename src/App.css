@@ -182,3 +182,51 @@
     border-right-color: var(--border);
   }
 }
+
+/* Monotone and #83A0DC Color Palette Utilities */
+.bg-\[\#83A0DC\] { background-color: #83A0DC; }
+.hover\:bg-\[\#6E8ECF\]:hover { background-color: #6E8ECF; }
+.text-\[\#83A0DC\] { color: #83A0DC; }
+.border-\[\#83A0DC\] { border-color: #83A0DC; }
+.hover\:border-\[\#83A0DC\]\/50:hover { border-color: rgba(131, 160, 220, 0.5); }
+.hover\:border-\[\#83A0DC\]\/70:hover { border-color: rgba(131, 160, 220, 0.7); }
+.focus\:border-\[\#83A0DC\]:focus { border-color: #83A0DC; }
+.focus\:ring-\[\#83A0DC\]\/30:focus { --tw-ring-color: rgba(131, 160, 220, 0.3); }
+.shadow-\[\#83A0DC\]\/25 { --tw-shadow-color: rgba(131, 160, 220, 0.25); }
+
+.bg-\[\#EEF3FB\] { background-color: #EEF3FB; }
+.bg-\[\#EEF3FB\]\/70 { background-color: rgba(238, 243, 251, 0.7); }
+.hover\:bg-\[\#EEF3FB\]:hover { background-color: #EEF3FB; }
+.hover\:bg-\[\#E3ECF9\]:hover { background-color: #E3ECF9; }
+.border-\[\#C5D4ED\] { border-color: #C5D4ED; }
+.border-\[\#C5D4ED\]\/60 { border-color: rgba(197, 212, 237, 0.6); }
+
+.text-\[\#395CA6\] { color: #395CA6; }
+.hover\:text-\[\#395CA6\]:hover { color: #395CA6; }
+.text-\[\#54637A\] { color: #54637A; }
+
+.bg-\[\#F8FAFC\] { background-color: #F8FAFC; }
+.bg-\[\#F4F6FA\] { background-color: #F4F6FA; }
+.bg-\[\#F1F4F9\] { background-color: #F1F4F9; }
+.bg-\[\#E9EDF4\] { background-color: #E9EDF4; }
+.hover\:bg-\[\#F4F6FA\]:hover { background-color: #F4F6FA; }
+.hover\:bg-\[\#E9EDF4\]:hover { background-color: #E9EDF4; }
+
+.border-\[\#E2E8F0\] { border-color: #E2E8F0; }
+.border-\[\#CBD3E0\] { border-color: #CBD3E0; }
+.border-\[\#CBD3E0\]\/40 { border-color: rgba(203, 211, 224, 0.4); }
+.border-\[\#CBD3E0\]\/50 { border-color: rgba(203, 211, 224, 0.5); }
+.border-\[\#CBD3E0\]\/60 { border-color: rgba(203, 211, 224, 0.6); }
+
+.text-\[\#1E232B\] { color: #1E232B; }
+.hover\:text-\[\#1E232B\]:hover { color: #1E232B; }
+.text-\[\#2C323D\] { color: #2C323D; }
+.hover\:text-\[\#2C323D\]:hover { color: #2C323D; }
+.text-\[\#646E7E\] { color: #646E7E; }
+.hover\:text-\[\#646E7E\]:hover { color: #646E7E; }
+.text-\[\#8E98A8\] { color: #8E98A8; }
+.placeholder-\[\#8E98A8\]::placeholder { color: #8E98A8; }
+
+.min-w-\[240px\] { min-width: 240px; }
+.max-w-2xl { max-width: 42rem; }
+.grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
