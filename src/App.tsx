@@ -2,13 +2,10 @@ import React, { useState, useEffect, useMemo } from 'react';
 import type { ChecklistItem, TripSchedule } from './types';
 import {
   INITIAL_ITEMS,
-  PER_DAY_RULES,
   formatPerDayItem,
   BASE_RECOMMENDED_POOL,
-  SCHEDULE_PRESETS,
 } from './types';
 import {
-  Plane,
   Plus,
   Trash2,
   Check,
@@ -19,11 +16,7 @@ import {
   ListFilter,
   Key,
   Calendar,
-  Home,
-  MapPin,
-  ChevronRight,
-  ArrowLeft,
-  Settings2
+  ArrowLeft
 } from 'lucide-react';
 import { ApiKeyModal } from './components/ApiKeyModal';
 import { AiModal } from './components/AiModal';

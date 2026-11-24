@@ -6,7 +6,6 @@ import {
   CheckCircle2,
   ArrowRight,
   Plane,
-  ShieldCheck,
   Compass
 } from 'lucide-react';
 

@@ -4,7 +4,6 @@ import {
   X,
   Compass,
   Check,
-  Sparkles,
   Info
 } from 'lucide-react';
 import {
